@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	cout << setiosflags(ios::left);
+	for(int j=0;j<6;j++){
+		for(int i=0;i<4;i++){
+			cout <<setw(17) << "Soy UNID";
+		}
+		cout << endl;
+	}
+	return 0;
+	
+}
